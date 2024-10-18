@@ -4,17 +4,23 @@ header{
   justify-content: center;
   align-items: center;
 }
-h2 {
-  font-size: 1em;
-}
-.landing-page {
+.l-page{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  border: 1px solid black;
+  width: 60%;
+  margin: 3px auto;
+
+}
+.l-img,.c-img{
   width: 100%;
 }
-.contents-page{
-  display: block;
-
+.c-page,.c-page2{
+  display: flex;
+  border: 1px solid black;
+  margin: auto;
+  width: 30%;
+}
+.content{
+  display: flex;
 }
