@@ -1,8 +1,11 @@
 body{
   background-image: linear-gradient(rgb(7, 7, 199) , rgb(248, 160, 175));
 }
-h1,h2,p{
+h1,p{
   color: white;
+}
+h2{
+  color: black;
 }
 header{
   display: flex;
@@ -16,20 +19,40 @@ header{
   border: 1px solid black;
   width: 60%;
   margin: 3px auto;
-
+}
+.l-btn{
+  border: 0.05rem solid black;
+  width: 8rem;
+  height: 3rem;
+  background-color: transparent;
+  border-radius: 10%;
 }
 .l-img,.c-img{
   width: 100%;
 }
-.c-page,.c-page2{
+
+.c-page{
   display: flex;
   border: 1px solid black;
   align-items: center;
+  flex-direction: column;
   margin: auto;
   width: 30%;
+  padding: 0.5rem;
 }
+
 .content{
   display: flex;
-  
-
+}
+.c-btn{
+  border: 0.05rem solid black;
+  width: 8rem;
+  height: 3rem;
+  background-color: transparent;
+  border-radius: 10%;
+}
+footer{
+  border-top: 1px;
+  display: flex;
+  justify-content: center;
 }
